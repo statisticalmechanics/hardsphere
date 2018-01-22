@@ -10,6 +10,7 @@ In addition to constant volume V simulation, the code can also do volume compres
 The compression consists of sequential constant V simulations, each for a time interval T. 
 At the end of each T, the system is compressed affinely till the first collision event. 
 Overall, this leads to an exponential volume decrease, and the compression rate is controlled by T.
+The compression terminates untill the collision frequency, measured during each T, reaches a certain threshold, which implies reaching a certain packing fraction. 
 
 Periodic boundary conditions are used.
 Cell list is used to speed up the simulation and the cell size is scaled as volume shrinks.
