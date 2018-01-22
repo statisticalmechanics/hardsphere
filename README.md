@@ -16,4 +16,5 @@ Cell list is used to speed up the simulation and the cell size is scaled as volu
 The code calculate g(r) and output coordinate xyz file simutaneously 
 
 Reference:
+
 K. Zhang, W. W. Smith, M. Wang, Y. Liu, J. Schroers, M. D. Shattuck, C. S. O'Hern, Phys. Rev. E 90, 032311 (2014) 
